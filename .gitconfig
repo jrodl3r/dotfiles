@@ -1,0 +1,18 @@
+[user]
+	name = John Rodler
+	email = john@jrod.info
+[mergetool]
+	keepBackup = true
+[color]
+	ui = true
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	dc = diff --cached
+	lg = log -p
+	alias = config --get-regexp 'alias.*'
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
