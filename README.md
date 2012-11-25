@@ -1,5 +1,5 @@
-# My dotfiles
+# dotfiles
 
-## Install Setup
+## Setup & Configuration
 
 ### (Coming Soon)
