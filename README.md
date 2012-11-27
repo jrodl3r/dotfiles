@@ -8,4 +8,4 @@
 
 ## Example
 
-![Base64](https://raw.github.com/jrodl3r/dotfiles/master/TERMINAL.png)
+![Terminal Example](https://raw.github.com/jrodl3r/dotfiles/master/TERMINAL.png)
