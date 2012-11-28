@@ -18,6 +18,8 @@ discover all the awesome stuff you can do/tweak/build/customize/etc.
     * git
     * hub
     * node
+    * tree
+    * z
 6. Now for some fun, let's install some dotfile love..
     * (Stay Tuned, More to follow, Work in progress..)
 
