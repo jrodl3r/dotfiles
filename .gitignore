@@ -1,11 +1,36 @@
-# OSX Generated Files
+# Always-Ignore Extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor Folders/Files
 .DS_Store
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
 
-# SASS Cache
-.sass-cache
+# Other Folders
+.hg
+.svn
+.CVS
+.idea
+node_modules
+dist
