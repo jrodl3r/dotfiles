@@ -1,36 +1,67 @@
-# Always-Ignore Extensions
-*.diff
-*.err
-*.orig
+# LOGS/DB/CACHE/CONFIG #
+########################
 *.log
+*.diff
+*.orig
+*.err
 *.rej
 *.swo
 *.swp
-*.zip
 *.vi
-*~
-*.sass-cache
-
-# OS or Editor Folders/Files
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-.cache
-.project
+*.sql
+*.sqlite
+.sass-cache
 .settings
+.project
+.cache
 .tmproj
 *.esproj
 nbproject
 *.sublime-project
 *.sublime-workspace
 
-# Other Folders
+
+# COMPILED SOURCE #
+###################
+*.class
+*.com
+*.dll
+*.exe
+*.so
+*.o
+
+
+# OSX/SYSTEM #
+##############
+.DS_Store
+.DS_Store*
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Icon?
+._*
+.Trashes
+.Spotlight-V100
+
+
+# PKGs #
+########
+*.7z
+*.gz
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# OTHER #
+#########
 .hg
 .svn
 .CVS
 .idea
 node_modules
 dist
+
