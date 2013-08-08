@@ -12,13 +12,16 @@ alias ~="cd ~"
 alias dv="cd /Volumes/DATA/Dropbox/Dev && lsa"
 alias db="cd /Volumes/DATA/Dropbox && lsa"
 alias dl="cd ~/Downloads/NEW && lsa"
+alias home="cd ~ && lsa"
 alias desk="cd ~/Desktop && lsa"
+alias srvr="cd /Volumes/DATA/Dropbox/Dev/Servers && lsa"
 
 
 # SHORTCUTS #
 #############
 alias grep="grep -i"                         # Ignore case
 alias mv="mv -iv"                            # Move -interactive, verbose
+alias md="mkdir"                             # Make a folder
 alias man="man -a"                           # Show all sections for manuals
 alias rd='rm -rf'                            # Remove -recursively
 alias rm="rm -i"                             # Remove -interactive
