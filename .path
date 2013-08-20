@@ -1,0 +1,8 @@
+# Add local/bin to PATH for brew
+export PATH=/usr/local/bin:$PATH
+
+# Add RVM to PATH
+PATH=$PATH:$HOME/.rvm/bin
+
+# Add NPM to PATH
+export PATH=/usr/local/share/npm/bin:$PATH

@@ -29,6 +29,9 @@ nbproject
 *.exe
 *.so
 *.o
+src
+dist
+dest
 
 
 # OSX/SYSTEM #
@@ -63,5 +66,3 @@ Icon?
 .CVS
 .idea
 node_modules
-dist
-

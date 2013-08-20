@@ -44,14 +44,30 @@ alias ga='git add '
 alias gb='git branch '
 alias gc='git add . && git commit -m '
 alias gd='git diff '
-alias gh='git push heroku master && heroku run rake db:migrate && heroku restart && heroku open'
-alias gl='git log --decorate --oneline --graph --all --since=2.weeks '
+alias gdl='git diff master --name-only'
+alias gl='git log --decorate --oneline --graph --all '
 alias go='git checkout '
 alias gp='git pull && git push'
 alias gs='git status '
 
-# OTHER APPS #
-##############
+
+# GRUNT #
+#########
+alias gr='grunt'
+alias grw='grunt watch'
+alias grd='grunt dist'
+alias grj='grunt dist:js'
+alias grc='grunt dist:css'
+
+
+# GEMS #
+########
+alias notify='terminal-notifier -message'
+
+
+# OTHER #
+#########
+alias vall=""
 alias v="vim"
 alias s="subl ."
 alias cl="cloudapp"
@@ -59,6 +75,9 @@ alias cl="cloudapp"
 
 # OSX/SYSTEM #
 ##############
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
@@ -82,4 +101,3 @@ alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo 
 # Hide/show all desktop icons (useful when presenting / Doesn't work w/ TotalFinder)
 #alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false"
 #alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true"
-
