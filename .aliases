@@ -67,7 +67,6 @@ alias notify='terminal-notifier -message'
 
 # OTHER #
 #########
-alias vall=""
 alias v="vim"
 alias s="subl ."
 alias cl="cloudapp"
