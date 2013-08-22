@@ -72,6 +72,11 @@ alias s="subl ."
 alias cl="cloudapp"
 
 
+# FUN #
+#######
+alias tetris='emacs -q --no-splash -f tetris'
+
+
 # OSX/SYSTEM #
 ##############
 
