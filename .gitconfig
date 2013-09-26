@@ -1,6 +1,6 @@
 [user]
-	name = John Rodler
-	email = john@jrod.info
+	# name = John Rodler
+	# email = john@jrod.info
 [mergetool]
 	keepBackup = true
 [color]
