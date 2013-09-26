@@ -14,7 +14,8 @@ alias ~="cd ~"
 # alias dl="cd ~/Downloads/NEW && lsa"
 # alias home="cd ~ && lsa"
 # alias desk="cd ~/Desktop && lsa"
-# alias srvr="cd /Volumes/DATA/Dropbox/Dev/Servers && lsa"
+# alias svrs="cd /Volumes/DATA/Dropbox/Dev/Servers && lsa"
+# alias svr_cfg="cd /Library/Server/Web/Config/apache2/sites"
 
 
 # SHORTCUTS #
