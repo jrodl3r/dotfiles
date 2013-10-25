@@ -52,6 +52,7 @@ alias gp='git pull && git push'
 alias gs='git status '
 alias gundo='git reset --soft HEAD~1'
 alias gnuke='git reset --hard HEAD~1'
+alias gorig='git remote show origin'
 
 
 # GRUNT #
