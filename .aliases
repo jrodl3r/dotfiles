@@ -9,13 +9,11 @@ alias ~="cd ~"
 
 # FOLDERS #
 ###########
-# alias dv="cd /Volumes/DATA/Dropbox/Dev && lsa"
-# alias db="cd /Volumes/DATA/Dropbox && lsa"
-# alias dl="cd ~/Downloads/NEW && lsa"
-# alias home="cd ~ && lsa"
-# alias desk="cd ~/Desktop && lsa"
-# alias svrs="cd /Volumes/DATA/Dropbox/Dev/Servers && lsa"
-# alias svr_cfg="cd /Library/Server/Web/Config/apache2/sites"
+#alias dl="cd ~/Downloads && lsa"
+#alias db="cd ~/Dropbox && lsa"
+#alias dev="cd ~/Dropbox/Dev && lsa"
+#alias desk="cd ~/Desktop && lsa"
+#alias home="cd ~ && lsa"
 
 
 # SHORTCUTS #
