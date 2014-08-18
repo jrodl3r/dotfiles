@@ -4,16 +4,15 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~"
+alias ~="cd ~ && lsa"
 
 
 # FOLDERS #
 ###########
-#alias dl="cd ~/Downloads && lsa"
-#alias db="cd ~/Dropbox && lsa"
-#alias dev="cd ~/Dropbox/Dev && lsa"
-#alias desk="cd ~/Desktop && lsa"
-#alias home="cd ~ && lsa"
+alias dl="cd ~/Downloads && lsa"
+alias db="cd ~/Dropbox && lsa"
+alias dev="cd ~/Sites/_Git && lsa"
+alias desk="cd ~/Desktop && lsa"
 
 
 # SHORTCUTS #
@@ -41,14 +40,18 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 alias g="git"
 alias ga='git add '
 alias gb='git branch '
+alias gr='git remote '
 alias gc='git commit -m '
-alias gd='git diff '
-alias gdl='git diff master --name-only'
 alias gl='git log --decorate --oneline --graph --all '
 alias go='git checkout '
 alias gp='git pull && git push'
 alias gs='git status '
-alias grbs='git rebase -i '
+alias gd='git diff '
+alias gds='git diff --stat '
+alias gdl='git diff master --name-only'
+alias glast='git log -l HEAD'
+alias grbas='git rebase -i '
+alias gunst='git 
 alias gundo='git reset --soft HEAD~1'
 alias gnuke='git reset --hard HEAD~1'
 alias gorig='git remote show origin'
@@ -56,23 +59,16 @@ alias gorig='git remote show origin'
 
 # GRUNT #
 #########
-alias gr='grunt'
-alias grw='grunt watch'
-alias grd='grunt dist'
-alias grj='grunt dist:js'
-alias grc='grunt dist:css'
+alias grn="grunt"
+alias grnd="grunt dev"
+alias grnw="grunt watch"
 
-
-# GEMS #
-########
-alias notify='terminal-notifier -message'
-
-
-# OTHER #
+# MORE #
 #########
 alias v="vim"
 alias s="subl ."
 alias cl="cloudapp"
+alias notify='terminal-notifier -message'
 
 
 # FUN #
