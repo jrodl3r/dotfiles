@@ -17,6 +17,7 @@ alias desk="cd ~/Desktop && lsa"
 
 # SHORTCUTS #
 #############
+alias hosts="sudo v /private/etc/hosts"      # Edit hosts file
 alias grep="grep -i"                         # Ignore case
 alias mv="mv -iv"                            # Move -interactive, verbose
 alias md="mkdir"                             # Make a folder
@@ -46,6 +47,7 @@ alias gm="git merge "
 alias gc="git commit -m "
 alias go="git checkout "
 alias gs="git status "
+alias gf="git fetch "
 alias gp="git pull && git push"
 alias gcp="git cherry-pick -n "
 alias grbs="git rebase -i "
