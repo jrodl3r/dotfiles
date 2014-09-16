@@ -17,7 +17,7 @@ alias desk="cd ~/Desktop && lsa"
 
 # SHORTCUTS #
 #############
-alias hosts="sudo v /private/etc/hosts"      # Edit hosts file
+alias hosts="sudo vim /private/etc/hosts"    # Edit hosts file
 alias grep="grep -i"                         # Ignore case
 alias mv="mv -iv"                            # Move -interactive, verbose
 alias md="mkdir"                             # Make a folder
