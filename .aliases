@@ -11,7 +11,7 @@ alias ~="cd ~ && lsa"
 ###########
 alias dl="cd ~/Downloads && lsa"
 alias db="cd ~/Dropbox && lsa"
-alias dev="cd ~/Sites/_Git && lsa"
+alias dv="cd ~/Sites/_Git && lsa"
 alias desk="cd ~/Desktop && lsa"
 
 
