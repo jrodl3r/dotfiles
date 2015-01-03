@@ -63,7 +63,3 @@ parse_git_branch () {
 export PS1="\[${BOLD}${WHITE}\]┌─ \[${BOLD}${MAGENTA}\]\u \[$BASE0\]at \[$ORANGE\]\h \[$BASE0\]in \[$BLUE\]\w\[$BASE0\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$GREEN\]\$(parse_git_branch)\[$BASE0\]\n└─ \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 
-
-dash(){
-	open dash://$1;
-}
