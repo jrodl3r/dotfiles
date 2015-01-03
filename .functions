@@ -264,6 +264,6 @@ function gi() {
 }
 
 #Dash Docset Quick Reference
-function () {
+function dash() {
 	open dash://$1;
 }
