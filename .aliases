@@ -11,7 +11,7 @@ alias ~="cd ~ && lsa"
 ###########
 alias dl="cd ~/Downloads && lsa"
 alias db="cd ~/Dropbox && lsa"
-alias dv="cd ~/Sites/_Git && lsa"
+alias dv="cd ~/Sites && lsa"
 alias desk="cd ~/Desktop && lsa"
 
 
@@ -75,8 +75,8 @@ alias grnw="grunt watch"
 # MORE #
 #########
 alias v="vim"
-alias s="subl ."
-alias cl="cloudapp"
+alias a="atom ."
+
 
 # Notifications
 alias notify="terminal-notifier -message"
