@@ -83,6 +83,7 @@ alias notify="terminal-notifier -message"
 
 # Entertainment
 alias tetris="emacs -q --no-splash -f tetris"
+alias matrix="cmatrix -a -C blue"
 
 # Stopwatch
 alias timer="echo 'Timer started. Stop with Ctrl-D.' && date && time cat && date"
