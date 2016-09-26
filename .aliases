@@ -26,6 +26,7 @@ alias cpd="cp -r"                            # Copy -recursively
 alias rd="rm -rf"                            # Remove -recursively
 alias rm="rm -i"                             # Remove -interactive
 alias c="clear"                              # Clear terminal view
+alias t="touch"                              # Create file
 alias o="open"                               # Open file
 alias oo="open ."                            # Open all files in folder
 alias l="ls -l ${colorflag}"                 # List all files colorized in long format
@@ -46,18 +47,26 @@ alias gr="git remote "
 alias gm="git merge "
 alias gc="git commit -m "
 alias go="git checkout "
-alias gs="git status "
+alias gom="git checkout master"
+alias god="git checkout dev"
+alias gs="c && git status "
 alias gf="git fetch "
 alias gp="git pull && git push"
 alias gpl="git pull "
 alias gps="git push "
 alias gcp="git cherry-pick -n "
 alias grbs="git rebase -i "
+alias gstsh="git stash"
 alias gundo="git reset --soft HEAD~1"
 alias gnuke="git reset --hard HEAD~1"
 alias gd="git diff "
 alias gds="git diff --stat "
+alias gdc="git diff --cached"
+alias gdcs="git diff --stat --cached"
 alias gl="git log --decorate --oneline --graph --all "
+alias gl5="git log --decorate --oneline --graph -n 5"
+alias gl10="git log --decorate --oneline --graph -n 10"
+alias gl20="git log --decorate --oneline --graph -n 20"
 alias glast="git log -l HEAD"
 alias gorig="git remote show origin"
 
@@ -72,10 +81,25 @@ alias grnj="grunt js"
 alias grnw="grunt watch"
 
 
+# NPM #
+#######
+alias n="npm"
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nr="npm run"
+alias nrb="npm run build"
+alias nrc="npm run clean"
+alias nrd="npm run dev"
+alias nrs="npm run start"
+alias nrt="npm run test"
+alias nrtw="npm run test:watch"
+
+
 # MORE #
-#########
+########
 alias v="vim"
 alias a="atom ."
+alias s="sublime ."
 
 
 # Notifications
