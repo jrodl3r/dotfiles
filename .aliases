@@ -71,6 +71,28 @@ alias glast="git log -l HEAD"
 alias gorig="git remote show origin"
 
 
+# NPM #
+#######
+alias n="npm"
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nr="npm run"
+alias nrr="npm run release"
+alias nrb="npm run build"
+alias nrc="npm run clean"
+alias nrd="npm run dev"
+alias nrs="npm run start"
+alias nrt="npm run test"
+alias nrtw="npm run test:watch"
+
+
+# FIREBASE #
+############
+alias fbi="firebase init"
+alias fbd="firebase deploy"
+alias fbo="firebase open hosting:site"
+
+
 # GRUNT #
 #########
 alias grn="grunt"
@@ -79,20 +101,6 @@ alias grnp="grunt dist"
 alias grnc="grunt css"
 alias grnj="grunt js"
 alias grnw="grunt watch"
-
-
-# NPM #
-#######
-alias n="npm"
-alias ni="npm install"
-alias nu="npm uninstall"
-alias nr="npm run"
-alias nrb="npm run build"
-alias nrc="npm run clean"
-alias nrd="npm run dev"
-alias nrs="npm run start"
-alias nrt="npm run test"
-alias nrtw="npm run test:watch"
 
 
 # MORE #
