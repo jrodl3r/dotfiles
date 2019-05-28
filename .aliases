@@ -57,8 +57,8 @@ alias gps="git push "
 alias gcp="git cherry-pick -n "
 alias grbs="git rebase -i "
 alias gstsh="git stash"
-alias gundo="git reset --soft HEAD~1"
-alias gnuke="git reset --hard HEAD~1"
+alias gundo="git reset --soft"
+alias gnuke="git reset --hard"
 alias gd="git diff "
 alias gds="git diff --stat "
 alias gdc="git diff --cached"
@@ -74,14 +74,19 @@ alias gorig="git remote show origin"
 # NPM #
 #######
 alias n="npm"
+alias nls="npm ls --depth=0"
+alias nlg="npm -g ls --depth=0"
 alias ni="npm install"
 alias nu="npm uninstall"
 alias nr="npm run"
 alias nrr="npm run release"
 alias nrb="npm run build"
+alias nrp="npm run publish"
+alias nrbp="npm run build:prod"
 alias nrc="npm run clean"
 alias nrd="npm run dev"
 alias nrs="npm run start"
+alias nrsvr="npm run server"
 alias nrt="npm run test"
 alias nrtw="npm run test:watch"
 
@@ -90,6 +95,7 @@ alias nrtw="npm run test:watch"
 ############
 alias fbi="firebase init"
 alias fbd="firebase deploy"
+alias fbs="firebase serve"
 alias fbo="firebase open hosting:site"
 
 
@@ -105,6 +111,7 @@ alias grnw="grunt watch"
 
 # MORE #
 ########
+alias h="hyper"
 alias v="vim"
 alias a="atom ."
 alias s="sublime ."
